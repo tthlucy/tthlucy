@@ -1,0 +1,45 @@
+body{
+    background-image: url(profil.jpg);
+    background-position-x: right;
+    background-position-y: top;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 20%;
+    float: left;
+    position: fixed;
+    top: 0;
+    background-color: lightblue;
+    height: 900px;
+    text-align: center;
+}
+
+ul li{
+    list-style: none; 
+    display: block;   
+    line-height: 170px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+}
+
+ul li a:hover {
+    background-color: rgb(127, 169, 224);
+}
+
+p{
+    width: 80%;
+    float: right;
+    text-align: center;
+}
